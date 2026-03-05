@@ -1,4 +1,4 @@
-# Crypto & Currency Chatbot - API Integration
+# Crypto & Currency Chatbot with API Integration
 
 A chatbot that pulls real-time cryptocurrency prices and currency exchange rates using OpenAI function calling. Built with Streamlit for an interactive web interface.
 
