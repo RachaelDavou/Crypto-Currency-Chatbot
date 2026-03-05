@@ -34,7 +34,7 @@ streamlit run crypto_chatbot.py
 The chatbot uses OpenAI's function calling feature to decide when and how to query the APIs.
 
 1. **User Input** - The user asks a question like "What's the price of Ethereum?"
-2. **Tool Selection** - The LLM reads the tool descriptions and picks `get_crypto_price`.
+2. **Tool Selection** - The LLM reads the tool descriptions and automatically picks the appropriate tool.
 3. **API Call** - The function makes an HTTP request to the CoinGecko API.
 4. **Response Parsing** - The JSON response is parsed and formatted.
 5. **Final Answer** - The LLM generates a natural language response for the user.
